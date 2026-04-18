@@ -1,0 +1,16 @@
+def get_borivali_summary():
+    stats = {
+        "Name": "Borivali",
+        "District": "Mumbai Suburban",
+        "Famous_For": "Sanjay Gandhi National Park",
+        "Railway_Station": "Borivali (BVI)",
+        "Metro_Connectivity": "Line 2A (Yellow) and Line 7 (Red)",
+        "Pincode_West": 400091
+    }
+
+    print(f"--- Fact Sheet: {stats['Name']} ---")
+    for key, value in stats.items():
+        print(f"{key:18}: {value}")
+
+if __name__ == "__main__":
+    get_borivali_summary()
